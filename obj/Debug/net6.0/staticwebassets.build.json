@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "MGOyb67wukVaNzYfi5UrABj49cYXjKCS0ip7sZbbjoM=",
+  "Source": "BlazorPractice",
+  "BasePath": "_content/BlazorPractice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BlazorPractice\\wwwroot",
+      "Source": "BlazorPractice",
+      "ContentRoot": "X:\\Blazor\\BlazorPractice\\wwwroot\\",
+      "BasePath": "_content/BlazorPractice",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "X:\\Blazor\\BlazorPractice\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorPractice.styles.css",
+      "SourceId": "BlazorPractice",
+      "SourceType": "Computed",
+      "ContentRoot": "X:\\Blazor\\BlazorPractice\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/BlazorPractice",
+      "RelativePath": "BlazorPractice.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "X:\\Blazor\\BlazorPractice\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorPractice.styles.css"
+    },
+    {
+      "Identity": "X:\\Blazor\\BlazorPractice\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorPractice.bundle.scp.css",
+      "SourceId": "BlazorPractice",
+      "SourceType": "Computed",
+      "ContentRoot": "X:\\Blazor\\BlazorPractice\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/BlazorPractice",
+      "RelativePath": "BlazorPractice.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "X:\\Blazor\\BlazorPractice\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorPractice.bundle.scp.css"
+    },
+    {
+      "Identity": "X:\\Blazor\\BlazorPractice\\wwwroot\\css\\site.css",
+      "SourceId": "BlazorPractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "X:\\Blazor\\BlazorPractice\\wwwroot\\",
+      "BasePath": "_content/BlazorPractice",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "X:\\Blazor\\BlazorPractice\\wwwroot\\favicon.ico",
+      "SourceId": "BlazorPractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "X:\\Blazor\\BlazorPractice\\wwwroot\\",
+      "BasePath": "_content/BlazorPractice",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}
