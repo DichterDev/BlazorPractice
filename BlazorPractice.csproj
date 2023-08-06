@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Components\Text.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Components\Text.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Data\" />
   </ItemGroup>
 

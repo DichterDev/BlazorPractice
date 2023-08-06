@@ -1,3 +1,31 @@
+/* _content/BlazorPractice/Components/Text.razor.rz.scp.css */
+.text[b-xd5d90iwvw] {
+    
+}
+
+input[b-xd5d90iwvw] {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    height: 100%;
+    width: 99vw;
+    color: #00000000;
+    user-select: none;
+    cursor: default;
+    background-color: #00000000;
+    border-color: #00000000;
+    outline: none;
+    caret-color: transparent;
+
+    overflow: hidden;
+
+    z-index: -999;
+}
+
+input[b-xd5d90iwvw]::selection {
+    color: #00000000;
+}
 /* _content/BlazorPractice/Shared/MainLayout.razor.rz.scp.css */
 .page[b-b56hswvuy6] {
     position: relative;

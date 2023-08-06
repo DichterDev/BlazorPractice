@@ -29,3 +29,4 @@ X:\Blazor\BlazorPractice\obj\Debug\net6.0\refint\BlazorPractice.dll
 X:\Blazor\BlazorPractice\obj\Debug\net6.0\BlazorPractice.pdb
 X:\Blazor\BlazorPractice\obj\Debug\net6.0\BlazorPractice.genruntimeconfig.cache
 X:\Blazor\BlazorPractice\obj\Debug\net6.0\ref\BlazorPractice.dll
+X:\Blazor\BlazorPractice\obj\Debug\net6.0\scopedcss\Components\Text.razor.rz.scp.css
