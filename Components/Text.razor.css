@@ -1,0 +1,27 @@
+﻿.text {
+    
+}
+
+input {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    height: 100%;
+    width: 99vw;
+    color: #00000000;
+    user-select: none;
+    cursor: default;
+    background-color: #00000000;
+    border-color: #00000000;
+    outline: none;
+    caret-color: transparent;
+
+    overflow: hidden;
+
+    z-index: -999;
+}
+
+input::selection {
+    color: #00000000;
+}
