@@ -1,0 +1,44 @@
+﻿@using System
+
+<div  class="text">
+    @foreach (char letter in text) {
+            <div class="letter">@letter</div>
+    }
+    <button @onclick="GenerateText" tabindex="-1">@((text.Length != 0) ? text[iteration] : "start")</button>
+</div>
+<input id="text-input" @onkeydown="HandleKeydown" autofocus tabindex="0"/>
+
+<style>
+    .text .letter:nth-child(-n+@iteration) {
+        color: red;
+    }
+</style>
+
+@code {
+    private Random rand = new Random();
+    private string letters = "abcdefghijklmopqrstuvwxyz ";
+    private string text = string.Empty;
+    private string key = string.Empty;
+    private int iteration = 0;
+
+    private void GenerateText() {
+        text = string.Empty;
+
+        for (int i = 0; i < 20; i++) {
+            int index = rand.Next(letters.Length - 1);
+            text += letters[index];
+        }
+        iteration = 0;
+        StateHasChanged();
+    }
+
+    private void HandleKeydown(KeyboardEventArgs e) {
+        if (e.Key == "Tab" || e.Key == "Shift" || e.Key == "Alt" || e.Key == "Control") return;
+        if (e.Key == text[iteration].ToString()) iteration++;
+        else {
+            text = text.Insert(iteration, e.Key);
+            StateHasChanged();
+        }
+        if (iteration == text.Length - 1) iteration = 0;
+    }
+}
